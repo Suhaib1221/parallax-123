@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    min-height: 100%;
+    font-size: 1.6vw; /* Responsive font size */
+    color: #666;
+}
+
+.pimg1 {
+    background: url(image1.png);
+    min-height: 100vh;
+}
+
+.pimg2 {
+    background: url(image2.png);
+    min-height: 400px;
+}
+
+.pimg3 {
+    background: url(image3.png);
+    min-height: 400px;
+}
+
+.pimg2, .pimg1, .pimg3 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.ptext {
+    width: 100%;
+    text-align: center;
+    color: #666;
+    font-size: 4vw; /* Responsive font size */
+    letter-spacing: 0.8vw; /* Responsive letter spacing */
+    text-transform: uppercase;
+}
+
+.textbg {
+    background: rgba(0, 0, 0, .4);
+    color: #fff;
+    padding: 2vw; /* Responsive padding */
+}
+
+.sec {
+    padding: 5vw 8vw; /* Responsive padding */
+    text-align: justify;
+}
+
+.text-align {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.5vw; /* Responsive font size */
+    font-weight: 900;
+}
+
+p {
+    text-align: justify;
+    text-transform: uppercase;
+    font-size: 1.5vw; /* Responsive font size */
+    line-height: 1.2;
+}
+
+.sec-light {
+    background: #f4f4f4;
+    color: #666;
+}
+
+.sec-dark {
+    background-color: #313534;
+    color: #fff;
+}
+
+/* utilities */
+.d-flex {
+    display: flex;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.al-item-center {
+    align-items: center;
+}
+
+.tran-bg {
+    background: rgba(0, 0, 0, .4);
+}
